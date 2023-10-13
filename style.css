@@ -1,0 +1,99 @@
+@font-face {
+  font-family: ninoMtavruli;
+  src: url("fonts/bpg_nino_mtavruli_bold.ttf");
+}
+@font-face {
+  font-family: mrgvlovani;
+  src: url("fonts/bpg_mrgvlovani_0.ttf");
+}
+@font-face {
+  font-family: mrgvlovanicaps;
+  src: url("fonts/bpg_mrgvlovani_caps.ttf");
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+html,
+body {
+  height: 100%;
+  font-family: ninoMtavruli;
+  background: #f3f3f3;
+}
+.logo {
+  max-width: 311px;
+  margin-top: 10px;
+}
+.title {
+  color: #0080be;
+}
+textarea {
+  width: 100%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+  box-sizing: border-box;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.h5,
+h5 {
+  font-size: 15px;
+}
+.custom-control-label {
+  cursor: pointer;
+  font-size: 14px;
+}
+.custom-select {
+  height: calc(2rem) !important;
+}
+.table thead th {
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #0080be;
+  background: #0080be;
+}
+.table thead td,
+.table thead th {
+  color: white;
+}
+.table-bordered td,
+.table-bordered th {
+  padding: 0.5rem;
+  font-family: mrgvlovani;
+  font-size: 11px;
+}
+.table tbody td {
+  text-align: center;
+  vertical-align: middle;
+}
+.custom-select {
+  font-family: mrgvlovani;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.custom-control {
+  font-family: mrgvlovani;
+  margin-top: -5px;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: -0.5rem !important;
+}
+.col-md-9 {
+  margin: auto;
+}
+.collstyle {
+  margin-left: 12.5%;
+}
+.tooltip-inner {
+  background-color: #4c8ece;
+  background-color: #4c8ece;
+  max-width: 165px;
+}
+.bs-tooltip-auto[x-placement^="right"] .arrow::before,
+.bs-tooltip-right .arrow::before {
+  border-right-color: #5999d3;
+}
