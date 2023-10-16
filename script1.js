@@ -39,6 +39,8 @@ $(function () {
       $("#shws").hide();
       $(".submit-form").show();
     }
+    $("#bot").prop("disabled", false);
+    $(".submit-form").show();
 
     // $("#information_published-1").prop("disabled", true);
     // $("#information_published-2").prop("disabled", true);
