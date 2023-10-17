@@ -33,7 +33,7 @@ include 'insertphp.php';
 		#visit,
 		/* #activities, */
 		#coment10,
-		#commen6_1,
+		#coment6_1,
 		#comment11_1,
 		#comment12_1,
 		#comment13_1,
@@ -134,7 +134,7 @@ include 'insertphp.php';
 						<p style="font-size: 14px; text-indent: 50px; font-family: <?php echo $lang["fonts"]; ?>"> <?php echo $lang["Dear"]; ?></p>
 						<p style="font-size: 14px; text-indent: 50px; font-family: <?php echo $lang["fonts"]; ?>"> <?php echo $lang["secondtitle"]; ?></p>
 						<p style="font-size: 14px; text-indent: 50px; font-family: <?php echo $lang["fonts"]; ?>"> <?php echo $lang["thirdtitle"]; ?></p>
-						<p style="font-size: 14px; text-indent: 50px; font-family: <?php echo $lang["fonts"]; ?>" class="text-danger"> <?php echo $lang["fourthtitle"]; ?></p>
+						<p style="font-size: 14px; text-indent: 50px; font-family: <?php echo $lang["fonts"]; ?>"> <?php echo $lang["fourthtitle"]; ?></p>
 						<p style="font-size: 14px; font-family: <?php echo $lang["fonts"]; ?>"> <i><?php echo $lang["Please_note"]; ?></i></p>
 
 						<h6 style="text-align: center; font-family: <?php echo $lang["fonts"]; ?>;"> <b><?php echo $lang["General_informaton"]; ?></b></h6>
@@ -315,9 +315,9 @@ include 'insertphp.php';
 					</div>
 				</div>
 
-				<div class="row my-4" id="commen6_1">
+				<div class="row my-4" id="coment6_1">
 					<div class="col-md-9">
-						<textarea class="form-control text6_1" rows="4" name="commen6_1" placeholder="<?php echo $lang['Please_specify']; ?>"></textarea>
+						<textarea class="form-control text6_1" rows="4" name="coment6_1" placeholder="<?php echo $lang['Please_specify']; ?>"></textarea>
 					</div>
 				</div>
 

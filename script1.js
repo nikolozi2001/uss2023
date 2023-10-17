@@ -30,7 +30,7 @@ $(function () {
 
       $("#shws").show();
       $("#information").hide();
-      $("#q4_1_sxva").hide();
+      $("#coment6_1").hide();
       $(".submit-form").hide();
     } else {
       $("#bot").prop("disabled", false);
@@ -85,11 +85,11 @@ $(function () {
   //other ------------------------5.1
   $(".other6_1 input:radio").change(function () {
     if ($(this).is(":checked") && $(this).attr("id") == "5") {
-      $("#q4_1_sxva").show();
+      $("#coment6_1").show();
     } else {
       // pass
       $(".text6_1").val("");
-      $("#q4_1_sxva").hide();
+      $("#coment6_1").hide();
     }
 
     // $("#provided_by-1").prop("disabled", true);
