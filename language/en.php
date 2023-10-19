@@ -15,7 +15,7 @@ $lang = array(
 	"thirdtitle" => "In order to help us find out whether we are satisfying your needs and expectations, we would appreciate your help by taking a few moments to complete this survey. Your answers and comments are anonymous and much appreciated. They will help us learn about what we are doing well and what we need to do better. Once completed, please press “submit” button.",
 	"fourthtitle" => '* Your individual and personal data are protected by the Law of Georgia "on Official Statistics" (Article 34) and the Law of Georgia "on Personal Data Protection" and shall not be published.',
 	"Please_note" => "Please note, that the questions in the questionnaire refer to the last 12 months.",
-	"General_informaton" => "Module A:  General information",
+	"General_informaton" => "",
 
 
 	"title" => "Questionnaire",
@@ -48,19 +48,19 @@ $lang = array(
 	"Enter_Email" => "Email",
 
 	"gender" => "Gender",
-	"Age" => "Age (drop down list)",
-	"Fieldofactivity" => "Field of activity (drop down list)",
+	"Age" => "Age",
+	"Fieldofactivity" => "Field of activity",
 
-	"question4" => "Do you use statistical information produced by GEOSTAT? (point out)",
-	"question4_1" => "What was the reason for not using statistical information produced by GEOSTAT?  (drop down list)",
-	"question5" => "How often do you use GEOSTAT’s information? (drop down list)",
+	"question4" => "Do you use statistical information produced by GEOSTAT?",
+	"question4_1" => "What was the reason for not using statistical information produced by GEOSTAT?",
+	"question5" => "How often do you use GEOSTAT’s information?",
 	"question6" => "From where did you get the information about GEOSTAT's activities? (Mark all corresponding answers) ",
 	"question7" => "Which statistics did you use and how satisfied were you with the quality of information? (Please rate all corresponding fields using the scale given in the table below)",
 	"question7_1" => "Why are you strongly dissatisfied/dissatisfied with the quality of information mentioned above? ",
 	"question8" => "Please rate your satisfaction level on the dissemination and communication services provided by GEOSTAT (please use the scale given in the table below)",
 	"question9" => "Which statistical portal developed by GEOSTAT did you use and how satisfied were you? (Please rate all corresponding portals using the scale given in the table below)",
 	"question10" => "Please rate GEOSTAT according to the criterias listed below (please, use the scale given in the table below)",
-	"question11" => "How do you think, the quality of work performed by GEOSTAT has changed during the last 12 month: (please, use the scale given in the table below)",
+	"question11" => "How do you think, the quality of work performed by GEOSTAT has changed during the last 12 month",
 	"question11_1" => "Why are you strongly dissatisfied/dissatisfied with the portal(s) mentioned above? ",
 	"question12_1" => "Why are you strongly dissatisfied/dissatisfied with dissemination and communication services provided by GEOSTAT? ",
 	"question13_1" => "Please specify, what is the reason(s) of indicating very low/low for the criterias listed above? ",
@@ -91,7 +91,7 @@ $lang = array(
 	"question23_1" => "Please, describe additional area of gender statistics where you see room for improvement:",
 	"question24" => "If you wish, please leave any general comment",
 
-	"Thank_you" => " “Thank you for participating in the survey!“ ",
+	"Thank_you" => "",
 
 	"Please_specify" => "Please specify:"
 );

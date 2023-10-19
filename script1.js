@@ -176,7 +176,7 @@ $(function () {
       // pass
       $(".text13_1").val("");
       $("#comment13_1").hide();
-      $("#tabl13").hide();
+      $("#tabl13").show();
     }
 
     // $("#provided_by-1").prop("disabled", true);
