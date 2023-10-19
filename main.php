@@ -734,7 +734,7 @@ include 'insertphp.php';
 							<select class="browser-default custom-select" name="gender_statistics" data-toggle="tooltip" data-placement="right" title="<?php echo $lang["required"]; ?>">
 								<option value="" disabled selected><?php echo $lang["select"]; ?></option>
 								<?php
-								$sql = "SELECT * FROM did_you_use_gender15";
+								$sql = "SELECT * FROM did_you_use_gender15"; // თეიბლი წაშლილია
 								$gender_statistics = mysqli_query($con, $sql);
 
 								while ($gender_statisticsArr = mysqli_fetch_array($gender_statistics)) {
@@ -781,7 +781,7 @@ include 'insertphp.php';
 							<div class="error invalid-feedback alert alert-danger p-1 text-center mt-1"><?php echo $lang["required"]; ?></div>
 							<table class="table table-bordered table-hover custom-radio">
 								<?php
-								$sql = "SELECT * FROM reason_for_not";
+								$sql = "SELECT * FROM reason_for_not"; // თეიბლი წაშლილია
 								$reason_for_not = mysqli_query($con, $sql);
 
 								while ($reason_for_notArr = mysqli_fetch_array($reason_for_not)) {
@@ -843,7 +843,7 @@ include 'insertphp.php';
 									<tr>
 										<!-- <th scope="col"></th> -->
 										<?php
-										$sql = "SELECT * FROM th_products_offered";
+										$sql = "SELECT * FROM th_products_offered"; // თეიბლი წაშლილია
 										$products_offered1 = mysqli_query($con, $sql);
 
 										while ($products_offeredArr1 = mysqli_fetch_array($products_offered1)) {
@@ -856,7 +856,7 @@ include 'insertphp.php';
 								</thead>
 								<tbody>
 									<?php
-									$sql = "SELECT * FROM tb_products_offered";
+									$sql = "SELECT * FROM tb_products_offered"; // თეიბლი წაშლილია
 									$products_offered = mysqli_query($con, $sql);
 
 									while ($products_offeredArr = mysqli_fetch_array($products_offered)) {
@@ -897,7 +897,7 @@ include 'insertphp.php';
 									<tr>
 										<!-- <th scope="col"></th> -->
 										<?php
-										$sql = "SELECT * FROM th_products_offered1";
+										$sql = "SELECT * FROM th_products_offered1";  // თეიბლი წაშლილია
 										$products_offered2 = mysqli_query($con, $sql);
 
 										while ($products_offeredArr2 = mysqli_fetch_array($products_offered2)) {
@@ -910,7 +910,7 @@ include 'insertphp.php';
 								</thead>
 								<tbody>
 									<?php
-									$sql = "SELECT * FROM tb_products_offered1";
+									$sql = "SELECT * FROM tb_products_offered1"; // თეიბლი წაშლილია
 									$products_offered3 = mysqli_query($con, $sql);
 
 									while ($products_offeredArr3 = mysqli_fetch_array($products_offered3)) {
@@ -956,7 +956,7 @@ include 'insertphp.php';
 									<tr>
 										<!-- <th scope="col"></th> -->
 										<?php
-										$sql = "SELECT * FROM th_different_fields";
+										$sql = "SELECT * FROM th_different_fields"; // თეიბლი წაშლილია
 										$different_fields = mysqli_query($con, $sql);
 
 										while ($different_fieldsArr = mysqli_fetch_array($different_fields)) {
@@ -969,7 +969,7 @@ include 'insertphp.php';
 								</thead>
 								<tbody>
 									<?php
-									$sql = "SELECT * FROM tb_different_fields";
+									$sql = "SELECT * FROM tb_different_fields"; // თეიბლი წაშლილია
 									$different_fields1 = mysqli_query($con, $sql);
 
 									while ($different_fieldsArr1 = mysqli_fetch_array($different_fields1)) {
@@ -1003,7 +1003,7 @@ include 'insertphp.php';
 									<tr>
 										<!-- <th scope="col"></th> -->
 										<?php
-										$sql = "SELECT * FROM th_different_fields1";
+										$sql = "SELECT * FROM th_different_fields1"; //თეიბლი წაშლილია
 										$different_fields2 = mysqli_query($con, $sql);
 
 										while ($different_fieldsArr2 = mysqli_fetch_array($different_fields2)) {
@@ -1061,7 +1061,7 @@ include 'insertphp.php';
 									<tr>
 										<!-- <th scope="col"></th> -->
 										<?php
-										$sql = "SELECT * FROM th_overall";
+										$sql = "SELECT * FROM th_overall"; // თეიბლი წაშლილია
 										$overall = mysqli_query($con, $sql);
 
 										while ($overallArr = mysqli_fetch_array($overall)) {
@@ -1074,7 +1074,7 @@ include 'insertphp.php';
 								</thead>
 								<tbody>
 									<?php
-									$sql = "SELECT * FROM tb_overall";
+									$sql = "SELECT * FROM tb_overall"; // თეიბლი წაშლილია
 									$overall1 = mysqli_query($con, $sql);
 
 									while ($overall1Arr = mysqli_fetch_array($overall1)) {
@@ -1116,7 +1116,7 @@ include 'insertphp.php';
 									<tr>
 										<!-- <th scope="col"></th> -->
 										<?php
-										$sql = "SELECT * FROM th_overall22";
+										$sql = "SELECT * FROM th_overall22"; // თეიბლი წაშლილია
 										$overall = mysqli_query($con, $sql);
 
 										while ($overallArr = mysqli_fetch_array($overall)) {
@@ -1129,7 +1129,7 @@ include 'insertphp.php';
 								</thead>
 								<tbody>
 									<?php
-									$sql = "SELECT * FROM tb_overall22";
+									$sql = "SELECT * FROM tb_overall22"; // თეიბლი წაშლილია
 									$overall22 = mysqli_query($con, $sql);
 
 									while ($overall1Arr22 = mysqli_fetch_array($overall22)) {
@@ -1170,7 +1170,7 @@ include 'insertphp.php';
 							<select class="browser-default custom-select" name="provide21" data-toggle="tooltip" data-placement="right" title="<?php echo $lang["required"]; ?>">
 								<option value="" disabled selected><?php echo $lang["select"]; ?></option>
 								<?php
-								$sql = "SELECT * FROM provide21";
+								$sql = "SELECT * FROM provide21"; //თეიბლი წაშლილია
 								$provide = mysqli_query($con, $sql);
 
 								while ($provideArr = mysqli_fetch_array($provide)) {
