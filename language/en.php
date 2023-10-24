@@ -35,7 +35,7 @@ $lang = array(
 	"votegeostat" => "Please rate the GEOSTAT according to the criteria below (please, use the scale given in the table below)",
 	"yeargeostatquality" => "Please rate the quality of GEOSTAT's work during the last 12 months: (please, use the scale given in the table below) ",
 	"comment" => "General comment (If you wish, leave additional comments about the GEOSTAT or the statistical information produced by GEOSTAT)",
-	"send" => "Send",
+	"send" => "Sumbit",
 	"required" => "Please choose the answer!",
 
 	"Fieldofstatical" => "Field of statistical information",
