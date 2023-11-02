@@ -816,7 +816,7 @@ include 'insertphp.php';
 							<select class="browser-default custom-select" name="fields18" data-toggle="tooltip" data-placement="right" title="<?php echo $lang["required"]; ?>">
 								<option value="" disabled selected><?php echo $lang["select"]; ?></option>
 								<?php
-								$sql = "SELECT * FROM did_you_use_gender";
+								$sql = "SELECT * FROM did_you_use_gender"; //თეიბლი წაშლილია
 								$gender_statistics18 = mysqli_query($con, $sql);
 
 								while ($gender_statisticsArr18 = mysqli_fetch_array($gender_statistics18)) {
@@ -1016,7 +1016,7 @@ include 'insertphp.php';
 								</thead>
 								<tbody>
 									<?php
-									$sql = "SELECT * FROM tb_different_fields1";
+									$sql = "SELECT * FROM tb_different_fields1"; // თეიბლი წაშლილია
 									$different_fields3 = mysqli_query($con, $sql);
 
 									while ($different_fieldsArr4 = mysqli_fetch_array($different_fields3)) {
